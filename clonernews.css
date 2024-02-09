@@ -1,0 +1,99 @@
+.post {
+    font-size: 20px;
+    border: 2px solid;
+    margin : 25px;
+    padding: 25px;
+    background-color: white;
+}
+
+.comment {
+    font-size: 20px;
+    border: 2px solid;
+    margin : 15px;
+    padding: 15px;
+    background-color: white;
+}
+
+.commentContainer {
+    /* font-size: 15px; */
+    border: 2px solid;
+    margin : 15px;
+    padding: 15px;
+}
+
+body {
+    background-color: rgb(94, 94, 110);
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(45deg, #ccc 0, #ccc 1px, #fff 0, #fff 50%);
+    font-size : 15px;
+}
+
+.pollOpt {
+    padding: 15px 15px 15px 50px;
+}
+
+.popUp {
+    display: none;
+}
+
+.popUpContainer {
+    position: fixed;
+    font-size: 15px;
+    border: 2px solid;
+    top: 3%;
+    left: 3%;
+    padding: 25px;
+    background: rgb(171, 156, 156);
+    /* transform: translate(-50%, -50%) */
+}
+
+.moreButton {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    background-color: #454545;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin : 25px;
+    padding: 25px;
+}
+
+#header {
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    padding: 10px 0;
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Impact', sans-serif;
+}
+
+
+#categoriesSelector {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#categoriesSelector button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    background-color: #454545;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#categoriesSelector button:hover {
+    background-color: #000000;
+}
+
+#categoriesSelector button:focus {
+    outline: none;
+}
+
